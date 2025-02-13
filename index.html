@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Love+Light&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Valentines Day Card</title>
+</head>
+<body>
+    <audio id="backgroundMusic" loop>
+        <source src="materials/Lukas Graham - Love Someone (Lyrics) [ ezmp3.cc ].mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <canvas id="heartsCanvas"></canvas>
+    <h1>❤️ To Mercy ❤️</h1>
+    <div class="envelope-wrapper">
+        <div id="envelope" class="close">
+            <div class="front flap"></div>
+            <div class="front pocket"></div>
+            <div class="letter">
+                <p class="words line1"><b>Hey My Love, ❤️</b></p>
+                <p class="words line2">To love you is one of the easiest things to do because you make life seem so much more beautiful. 🌸✨</p>
+                <p class="words line3">All that you are is all that I’ll ever need. 💞 What makes me happy is being loved by you. 🥰</p>
+                <p class="words line4"><b>Love You, MOSES</b>. 💖</p>
+            </div>
+            <div class="hearts">
+                <div class="heart a1"></div>
+                <div class="heart a2"></div>
+                <div class="heart a3"></div>
+            </div>
+        </div>
+    </div>
+    <div class="reset">
+        <button id="open">Open</button>
+        <button id="reset">Reset</button>
+    </div>
+    <h1>❤️Happy Valentines Day!❤️</h1>
+    <script src="scritpt.js"></script>
+</body>
+</html>
